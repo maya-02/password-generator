@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size:20px;
+    background:#1F2937   ;
+
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+   }
+   
+   
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+    width: 446px; 
+}
+   
+   h1{
+    font-size:40px;
+    font-weight: 800;
+    margin-bottom:5px;
+    font-family:"Karla", Arial, Helvetica, sans-serif;
+    color:white;
+   }
+   
+   p{
+    margin-top:5px;
+    margin-bottom:25px;
+    font-size:22px; 
+    color:#D5D4D8;
+   }
+   
+  .results-section {
+    padding: 35px;
+    width: 450px;
+    border-top: 0.1px solid #D9D9D9;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    gap:20px;
+}
+
+   
+   #generate-passwords-btn{
+    margin-top:25px;
+    margin-bottom:35px;
+    padding:9px 15px;
+    text-align:center;
+    border-radius: 6px;
+    background:#10B981;
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+   }
+   
+#generate-passwords-btn:hover,#password-1:hover, #password-2:hover {
+    transform: scale(1.05); /* Slightly increase size */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+   
+   #password-1,#password-2{
+    width:auto;
+    height: auto;
+    padding:10px 20px;
+    text-align:center;
+    border-radius:6px;
+    color:#10B981;
+    background:#273549;
+    cursor:pointer;
+    font-size:20px;
+   }
+   
+   #green-text{
+    color:#10B981;
+   }
+   
+   
+   .hidden{
+    display:none;
+   }
